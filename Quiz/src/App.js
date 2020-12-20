@@ -9,7 +9,7 @@ function App() {
         <div style={{display: "block"}}>
           <h1><u>We're Up to Snow Good</u></h1>
           <br></br>
-          <h3><b>Quiz me Up!</b></h3>
+          <h3 className="typewriter"><b>Quiz me Up!- A fun Quiz app :)</b></h3>
         </div>
         <img className="pic" src={pic2} alt="Programmer"/>
     </div>
