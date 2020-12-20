@@ -1,4 +1,4 @@
-#Ice-Hockey
+# Ice-Hockey
 An ice hockey game developed in Python.
 
 To run this:
