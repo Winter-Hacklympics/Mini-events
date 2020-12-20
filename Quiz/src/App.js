@@ -7,7 +7,7 @@ function App() {
     <div className="img">
         <img className="pic" src={pic1} alt="Olympics"/>
         <div style={{display: "block"}}>
-          <h1><u>Winter Hacklympics</u></h1>
+          <h1><u>We're Up to Snow Good</u></h1>
           <br></br>
           <h3><b>Quiz me Up!</b></h3>
         </div>

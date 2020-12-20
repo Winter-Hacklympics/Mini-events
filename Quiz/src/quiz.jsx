@@ -42,6 +42,60 @@ export default function App() {
 				{ answerText: 'False', isCorrect: false },
 			],
 		},
+		{
+			questionText: 'Where were the first modern Olympic Winter Games held?',
+			answerOptions: [
+				{ answerText: 'Stockholm, Sweden', isCorrect: false },
+				{ answerText: 'Chamonix, France', isCorrect: true },
+				{ answerText: 'Salt Lake, UT', isCorrect: false },
+				{ answerText: 'Moscow, Russia', isCorrect: false },
+			],
+		},
+		{
+			questionText: "The VIII Olympic Winter Games saw the inclusion of which new women's competition?",
+			answerOptions: [
+				{ answerText: 'Figure Skating', isCorrect: false },
+				{ answerText: 'Ski-jumping', isCorrect: false },
+				{ answerText: 'Speed Skating', isCorrect: true },
+				{ answerText: 'Bobsled', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What is the only indoor Winter Olympics sport that does not involve ice skates?',
+			answerOptions: [
+				{ answerText: 'Skiing', isCorrect: false },
+				{ answerText: 'Snowboarding', isCorrect: false },
+				{ answerText: 'Luge', isCorrect: false },
+				{ answerText: 'Curling', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'In addition to Biathlon, what is the only other Winter Olympic sport in which the United States never won a gold medal?',
+			answerOptions: [
+				{ answerText: 'Ice Hockey', isCorrect: false },
+				{ answerText: 'Figure Skating', isCorrect: false },
+				{ answerText: 'Cross-country skiing', isCorrect: false },
+				{ answerText: 'Nordic Combined', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'Who is the oldest person to receive a Winter Olympics medal?',
+			answerOptions: [
+				{ answerText: 'Anders Haugen', isCorrect: true },
+				{ answerText: 'Sonja Henie', isCorrect: false },
+				{ answerText: 'Jeff Pain', isCorrect: false },
+				{ answerText: 'Avery Brundage', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What are the only two countries south of the equator to win medals at the Winter Olympics Games?',
+			answerOptions: [
+				{ answerText: 'Australia and New Zealand', isCorrect: true },
+				{ answerText: 'New Zealand and South Africa', isCorrect: false },
+				{ answerText: 'South Africa and Argentina', isCorrect: false },
+				{ answerText: 'Australia and Argentina', isCorrect: false },
+			],
+		},
 	];
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -64,7 +118,7 @@ export default function App() {
 		<div className='app'>
 		<img src={person} alt="Person" className="person"/>
     	{showScore ? (
-        score>2?(<Card className="quizCard" style={{backgroundImage: "radial-gradient(rgb(255,255,255), #2ecc71)"}}>
+        score>questions.length/2?(<Card className="quizCard" style={{backgroundImage: "radial-gradient(rgb(255,255,255), #2ecc71)"}}>
         <CardContent >
         <br></br>
         <br></br>
