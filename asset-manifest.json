@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "//winter-hacklympics.github.io/Mini-events/static/css/main.6ffa8bcc.chunk.css",
+    "main.js": "//winter-hacklympics.github.io/Mini-events/static/js/main.2c2afe6a.chunk.js",
+    "main.js.map": "//winter-hacklympics.github.io/Mini-events/static/js/main.2c2afe6a.chunk.js.map",
+    "runtime-main.js": "//winter-hacklympics.github.io/Mini-events/static/js/runtime-main.a4239932.js",
+    "runtime-main.js.map": "//winter-hacklympics.github.io/Mini-events/static/js/runtime-main.a4239932.js.map",
+    "static/js/2.cc56396e.chunk.js": "//winter-hacklympics.github.io/Mini-events/static/js/2.cc56396e.chunk.js",
+    "static/js/2.cc56396e.chunk.js.map": "//winter-hacklympics.github.io/Mini-events/static/js/2.cc56396e.chunk.js.map",
+    "static/js/3.55b4016b.chunk.js": "//winter-hacklympics.github.io/Mini-events/static/js/3.55b4016b.chunk.js",
+    "static/js/3.55b4016b.chunk.js.map": "//winter-hacklympics.github.io/Mini-events/static/js/3.55b4016b.chunk.js.map",
+    "index.html": "//winter-hacklympics.github.io/Mini-events/index.html",
+    "static/css/main.6ffa8bcc.chunk.css.map": "//winter-hacklympics.github.io/Mini-events/static/css/main.6ffa8bcc.chunk.css.map",
+    "static/js/2.cc56396e.chunk.js.LICENSE.txt": "//winter-hacklympics.github.io/Mini-events/static/js/2.cc56396e.chunk.js.LICENSE.txt",
+    "static/media/Celebration.a1537b21.svg": "//winter-hacklympics.github.io/Mini-events/static/media/Celebration.a1537b21.svg",
+    "static/media/Lost.991dfe20.svg": "//winter-hacklympics.github.io/Mini-events/static/media/Lost.991dfe20.svg",
+    "static/media/Person.929310ff.svg": "//winter-hacklympics.github.io/Mini-events/static/media/Person.929310ff.svg",
+    "static/media/index.css": "//winter-hacklympics.github.io/Mini-events/static/media/cool-background.c4dd2334.png",
+    "static/media/undraw_Winter_olympics_p07j (1).7bc07d16.svg": "//winter-hacklympics.github.io/Mini-events/static/media/undraw_Winter_olympics_p07j (1).7bc07d16.svg",
+    "static/media/undraw_programmer_imem.828147b9.svg": "//winter-hacklympics.github.io/Mini-events/static/media/undraw_programmer_imem.828147b9.svg",
+    "static/media/undraw_skateboard_d6or.bcd4f55a.svg": "//winter-hacklympics.github.io/Mini-events/static/media/undraw_skateboard_d6or.bcd4f55a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4239932.js",
+    "static/js/2.cc56396e.chunk.js",
+    "static/css/main.6ffa8bcc.chunk.css",
+    "static/js/main.2c2afe6a.chunk.js"
+  ]
+}
